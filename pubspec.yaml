@@ -1,0 +1,54 @@
+name: pos_mobile
+description: "MBSport Racing Dogs POS Mobile"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP
+  http: ^1.2.2
+
+  # Estado
+  provider: ^6.1.2
+
+  # Almacenamiento local
+  shared_preferences: ^2.3.2
+
+  # Impresora Sunmi interna
+  sunmi_printer_plus: ^2.0.0
+
+  # Impresora Bluetooth externa (ESC/POS)
+  print_bluetooth_thermal: ^1.0.14
+  esc_pos_utils_plus: ^2.0.2
+
+  # Permisos Android
+  permission_handler: ^11.3.1
+
+  # Íconos
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: DinNextLtPro
+      fonts:
+        - asset: assets/fonts/DINNextLTPro-Regular.ttf
+        - asset: assets/fonts/DINNextLTPro-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/DINNextLTPro-Medium.ttf
+          weight: 500
