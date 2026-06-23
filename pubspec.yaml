@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.12.2
+  sdk: ^3.7.2
 
 dependencies:
   flutter:
@@ -47,8 +47,4 @@ flutter:
   fonts:
     - family: DinNextLtPro
       fonts:
-        - asset: assets/fonts/DINNextLTPro-Regular.ttf
-        - asset: assets/fonts/DINNextLTPro-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/DINNextLTPro-Medium.ttf
-          weight: 500
+        - asset: assets/fonts/din-next-lt-pro-regular.ttf
